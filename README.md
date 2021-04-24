@@ -1,6 +1,6 @@
 # FreshService_example_python
 
-This is here to provide an example for others looking to implement additional logic to FreshService. 
+This is here to provide an example for others looking to implement additional logic to FreshService using the API. 
 
 It is a starting point and you need to update all of the scripts with API keys and instance names. 
 
