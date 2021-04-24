@@ -7,3 +7,7 @@ It is a starting point and you need to update all of the scripts with API keys a
 # If you have issues
 
 Please feel free to reach out <3
+
+# Please tell me if there is something you need as well.
+
+More than happy for adhoc work
