@@ -11,7 +11,8 @@ instances = {
 APIKey = {
     'example Instance': 'kljashf435098sdfnjkfh'
 }
-NOC = {
+## Views for each of the instances
+Views = {
     'example Instance': '923783'
 }
 
@@ -26,7 +27,7 @@ class Getbot:
         x = 1
         y = 30
         while y == 30:
-            url = instances[instance]+"/helpdesk/tickets"+Tickets[instance]
+            url = instances[instance]+"/helpdesk/tickets/"+Views[instance]
             auth = HTTPBasicAuth(APIKey[instance], 'x')
             req = requests.get(url+"?format=json&page="+str(x), auth=auth)
             TicketList = json.loads(req.text)
